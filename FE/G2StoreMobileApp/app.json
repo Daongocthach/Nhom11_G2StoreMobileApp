@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "G2 Store Mobile App",
+    "slug": "g2-store-mobile-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/appIcon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "locales": {
+      "en": "English",
+      "es": "Español",
+      "vi": "Tiếng Việt"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.app.G2Store"
+    },
+    "android": {
+      "package": "com.app.G2Store",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/appIcon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "88e6b46d-9bb1-4988-99da-59654f1683a4"
+      }
+    },
+    "owner": "thach752"
+  }
+}
